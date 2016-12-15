@@ -1,15 +1,10 @@
 name 'chronograf'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Byron Schaller'
+maintainer_email 'byron.schaller@gmail.com'
 license 'all_rights'
 description 'Installs/Configures chronograf'
 long_description 'Installs/Configures chronograf'
 version '0.1.0'
-
-# If you upload to Supermarket you should set this so your cookbook
-# gets a `View Issues` link
-# issues_url 'https://github.com/<insert_org_here>/chronograf/issues' if respond_to?(:issues_url)
-
-# If you upload to Supermarket you should set this so your cookbook
-# gets a `View Source` link
-# source_url 'https://github.com/<insert_org_here>/chronograf' if respond_to?(:source_url)
+issues_url 'https://github.com/byronschaller/chronograf/issues' if respond_to?(:issues_url)
+source_url 'https://github.com/byronschaller/chronograf' if respond_to?(:source_url)
+supports 'ubuntu'
